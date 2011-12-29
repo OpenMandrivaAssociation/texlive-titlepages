@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/titlepages.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The document provides examples of over two dozen title page
@@ -29,7 +27,6 @@ together with the LaTeX code used to create them.
 %doc %{_texmfdistdir}/doc/latex/titlepages/README
 %doc %{_texmfdistdir}/doc/latex/titlepages/titlepages.pdf
 %doc %{_texmfdistdir}/doc/latex/titlepages/titlepages.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -40,5 +37,3 @@ together with the LaTeX code used to create them.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
