@@ -37,3 +37,16 @@ together with the LaTeX code used to create them.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100714-2
++ Revision: 756921
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100714-1
++ Revision: 719754
+- texlive-titlepages
+- texlive-titlepages
+- texlive-titlepages
+
