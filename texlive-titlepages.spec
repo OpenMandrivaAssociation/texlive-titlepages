@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version 2010-07-14
 Name:		texlive-titlepages
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Sample titlepages, and how to code them
 Group:		Publishing
