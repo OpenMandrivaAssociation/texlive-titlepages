@@ -1,6 +1,6 @@
 Name:		texlive-titlepages
 Version:	19457
-Release:	1
+Release:	2
 Summary:	Sample titlepages, and how to code them
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-samples/TitlePages
