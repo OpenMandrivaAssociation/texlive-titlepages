@@ -3,7 +3,7 @@ Version:	19457
 Release:	2
 Summary:	Sample titlepages, and how to code them
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/latex-samples/TitlePages
+URL:		https://www.ctan.org/tex-archive/info/latex-samples/TitlePages
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/titlepages.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/titlepages.doc.r%{version}.tar.xz
